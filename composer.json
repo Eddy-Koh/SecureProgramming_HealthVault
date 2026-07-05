@@ -1,0 +1,10 @@
+{
+    "name": "medichain/healthvault-api-audit",
+    "description": "SECR4483 Alternative Assessment - refactored HealthVault-API components",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    }
+}
