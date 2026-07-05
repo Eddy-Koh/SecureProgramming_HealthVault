@@ -29,6 +29,7 @@ This repository contains the forensic security audit and remediation of three vu
     ├── schema.sql              # Database schema and seed data
     ├── .env.example            # Environment variable template
     ├── .gitignore              # Excludes .env, vendor/, and test cache
+    ├── .db_config.php          # Database Config
     └── README.md
 
 ## Setup
@@ -98,7 +99,3 @@ Expect: response contains `&lt;script&gt;alert(1)&lt;/script&gt;` (escaped), not
 Expect: `{"status":"vaulted","data":"<base64>"}` — run it twice and note the base64 output differs each time (random IV), unlike the old ECB version which would've been identical.
 
 When done, stop the server in Terminal A with `Ctrl+C`.
-
-## Documentation
-
-Full vulnerability analysis, secure coding principle discussion, refactored code walkthroughs, and PDPA 2010 compliance discussion are available in the accompanying assessment documentation (PDF).
