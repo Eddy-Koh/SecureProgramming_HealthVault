@@ -31,7 +31,7 @@ This repository contains the forensic security audit and remediation of three vu
     ├── crypto_vault.php        # Patient record encryption (refactored)
     ├── CryptoVaultTest.php     # PHPUnit test suite
     ├── schema.sql              # Database schema and seed data
-    ├── .env.example            # Environment variable template
+    ├── .env                    # Environment variable template
     ├── .gitignore              # Excludes .env, vendor/, and test cache
     ├── .db_config.php          # Database Config
     └── README.md
