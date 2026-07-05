@@ -1,10 +1,8 @@
 <?php
 // auth.php - Staff Key Authentication System
 
-// FIX: bootstrap dotenv so AUTH_KEY_HASH is actually available via getenv().
-// Without this, getenv() below silently returns false in every request.
 require_once __DIR__ . '/vendor/autoload.php';
-// createUnsafeImmutable() also populates getenv()/putenv(), which the code below relies on.
+
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->load();
 
