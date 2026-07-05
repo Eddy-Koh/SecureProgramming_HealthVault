@@ -4,7 +4,7 @@
 
 **Matric No.:** A22EC0154
 
-**Course:** SECR4483/SCSR4483 Secure Programming
+**Course:** SECR4483 Secure Programming
 
 **Lecturer:** Dr. Mohd Kufaisal Bin Mohd Sidik
 
