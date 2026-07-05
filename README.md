@@ -58,7 +58,7 @@ This repository contains the forensic security audit and remediation of three vu
 
 ### Terminal A — start the app server (leave this running)
 
-    cd "D:\Programming\Secure Programming Project\SP_AA"
+    cd "<to your project path location>"
     php -S localhost:8000
 
 ### Terminal B — run each test
