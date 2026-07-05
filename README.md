@@ -1,9 +1,13 @@
 # SECR4483 Secure Programming – Alternative Assessment
 
 **Student:** Eddy Koh Wei Hen
+
 **Matric No.:** A22EC0154
+
 **Course:** SECR4483/SCSR4483 Secure Programming
+
 **Lecturer:** Dr. Mohd Kufaisal Bin Mohd Sidik
+
 
 ## Overview
 
@@ -38,12 +42,17 @@ This repository contains the forensic security audit and remediation of three vu
 
        composer install
 
-2. Copy `.env.example` to `.env` and fill in real values:
+2. Create your own `.env` file in the project root (this file is excluded by `.gitignore` and must never be committed). Copy the info below to `.env`.
 
-       cp .env.example .env
+       VAULT_ENCRYPTION_KEY=e5k1cjE7Iq9esQ60wqm8JVDfxSON+BDEjaDtyi+7d/8=
+       AUTH_KEY_HASH=$argon2id$v=19$m=65536,t=4,p=1$YklvTzVLQ09kL0lvYWFzOA$lRI0MHylQojcVDmQMozFL0N0N8cCvuUCofVi0LwXSkQ
+       DB_HOST=localhost
+       DB_NAME=medic_vault_db
+       DB_USER=medvault_app_user
+       DB_PASS=ASTRONGPASSWORD
 
 3. Import `schema.sql` into your local MySQL/MariaDB instance.
-4. Configure `db_config.php` with your database credentials.
+4. Make sure `db_config.php` is same with your database credentials.
 
 ## Testing Runbook
 
